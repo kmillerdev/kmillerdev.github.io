@@ -1,0 +1,1440 @@
+	.sunTextBase1{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.sunTextLayer1{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/sunText1.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+		.sunTextBase2{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.sunTextLayer2{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/sunText2.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+			.sunTextBase3{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.sunTextLayer3{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/sunText3.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+	
+	.mercTextBase1{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.mercTextLayer1{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/mercText1.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+		.startTextBase{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.startTextLayer{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/startText.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+
+		.mercTextBase2{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.mercTextLayer2{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/mercText2.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+			.mercTextBase3{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.mercTextLayer3{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/mercText3.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+		.venusTextBase1{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.venusTextLayer1{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/venusText1.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+			.venusTextBase2{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.venusTextLayer2{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/venusText2.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+			.venusTextBase3{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.venusTextLayer3{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/venusText3.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+		.earthTextBase1{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.earthTextLayer1{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/earthText1.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+		.earthTextBase2{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.earthTextLayer2{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/earthText2.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+	.earthTextBase3{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.earthTextLayer3{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/earthText3.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+		.moonTextBase{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.moonTextLayer{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/moonText.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+	
+.marsTextBase1{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.marsTextLayer1{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/marsText1.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+
+.marsTextBase2{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.marsTextLayer2{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/marsText2.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+
+.marsTextBase3{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.marsTextLayer3{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/marsText3.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+
+
+.jupTextBase1{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.jupTextLayer1{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/jupText1.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+
+.jupTextBase2{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.jupTextLayer2{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/jupText2.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}	
+
+.jupTextBase3{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.jupTextLayer3{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/jupText3.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}	
+
+.satTextBase1{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.satTextLayer1{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/satText1.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}	
+
+.satTextBase2{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.satTextLayer2{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/satText2.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}	
+
+.satTextBase3{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.satTextLayer3{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/satText3.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}		
+		
+.uraTextBase1{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.uraTextLayer1{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/uranusText1.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+		.uraTextBase2{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.uraTextLayer2{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/uranusText2.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+		.uraTextBase3{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.uraTextLayer3{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/uranusText3.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+		.nepTextBase1{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.nepTextLayer1{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/neptuneText1.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+		.nepTextBase2{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.nepTextLayer2{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/neptuneText2.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+		.nepTextBase3{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.nepTextLayer3{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/neptuneText3.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+		.plutoTextBase1{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.plutoTextLayer1{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/plutoText1.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		.plutoTextBase2{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.plutoTextLayer2{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/plutoText2.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}
+		
+		.plutoTextBase3{
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+		
+	}
+	
+	.plutoTextLayer3{
+		
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 0, 0, 0); /**blue**/
+		background-image: url("text/plutoText3.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+		}

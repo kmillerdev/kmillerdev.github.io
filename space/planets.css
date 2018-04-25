@@ -1,0 +1,753 @@
+*{ 
+
+		box-sizing: border-box; 
+
+		margin: 0; 
+
+		padding: 0 
+
+	}
+
+	body {
+
+		color: #ffffff;
+		background-color: #000000;
+		text-shadow: 0 -1px 0 rgba( 0, 0, 0, .6 );
+
+		font-family: 'Open Sans', sans-serif;
+
+		font-size: 13px;
+
+		line-height: 16px;
+
+		overflow: hidden;
+
+	}
+	
+	
+
+	#viewport {
+	
+
+		-webkit-perspective: 1000; 
+
+		-moz-perspective: 1000; 
+
+		-o-perspective: 1000; 
+
+		position: absolute;
+
+		left: 0;
+
+		top: 0;
+
+		right: 0;
+
+		bottom: 0;
+
+		overflow: hidden;
+		background-image: url("star.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		
+	
+	}
+	
+	#viewport h1{
+		 font-family: 'Oswald', sans-serif;
+		 font-size: 100px;
+		 text-align: center;
+		 margin-top: 50px;
+		   
+	}	
+
+
+
+	#world {
+
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		margin-left: 256px;
+
+		margin-top: -256px;
+
+		height: 550px;
+
+		width: 550px;
+
+		background-color: rgba( 255, 0, 0, 0); /**red**/
+
+		-webkit-transform-style: preserve-3d;
+
+		-moz-transform-style: preserve-3d;
+
+		-o-transform-style: preserve-3d;
+
+		/**background-image: url("sun.png");**/
+		background-repeat: no-repeat;
+
+	}
+
+	
+
+	#world div {
+
+		-webkit-transform-style: preserve-3d;
+
+		-moz-transform-style: preserve-3d;	
+
+		-o-transform-style: preserve-3d;	
+
+	}
+	
+	
+
+		
+	}
+	
+	.sunBase {
+
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+
+	}
+
+	
+
+	.sunLayer {
+
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 255, 255, 0 ); /**blue**/
+		background-image: url("planets/sun.png");
+		background-repeat: no-repeat;
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+
+	}
+
+
+	/**mercury**/
+	.cloudBase {
+
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+
+	}
+
+	
+
+	.cloudLayer {
+
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 255, 255, 0 ); /**blue**/
+		background-image: url("planets/mercury.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+
+	}
+	
+	.venusBase {
+
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+
+	}
+
+	
+
+	.venusLayer {
+
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 255, 255, 0 ); /**blue**/
+		background-image: url("planets/venus.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+
+	}
+
+		.earthBase {
+
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+
+	}
+
+	
+
+	.earthLayer {
+
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 255, 255, 0 ); /**blue**/
+		background-image: url("planets/earth.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+
+	}
+	
+		.moonBase {
+
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+
+	}
+
+	
+
+	.moonLayer {
+
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 255, 255, 0 ); /**blue**/
+		background-image: url("planets/moon.png");
+		background-repeat: no-repeat;
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+
+	}
+	
+	.marsBase {
+
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+
+	}
+
+	
+
+	.marsLayer {
+
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 255, 255, 0 ); /**blue**/
+		background-image: url("planets/mars.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+
+	}
+	
+	.asteroidBase {
+
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+
+	}
+
+	
+
+	.asteroidLayer {
+
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 255, 255, 0 ); /**blue**/
+		background-image: url("planets/asteroid.png");
+		background-repeat: no-repeat;
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+
+	}
+	
+	.jupiterBase {
+
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+
+	}
+
+	
+
+	.jupiterLayer {
+
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 255, 255, 0 ); /**blue**/
+		background-image: url("planets/jupiter.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+
+	}
+	
+	.saturnBase {
+
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+
+	}
+
+	
+
+	.saturnLayer {
+
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 255, 255, 0 ); /**blue**/
+		background-image: url("planets/saturn.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+
+	}
+	
+	.uranusBase {
+
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+
+	}
+
+	
+
+	.uranusLayer {
+
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 255, 255, 0 ); /**blue**/
+		background-image: url("planets/uranus.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+
+	}
+	
+	.neptuneBase {
+
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+
+	}
+
+	
+
+	.neptuneLayer{
+
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 255, 255, 0 ); /**blue**/
+		background-image: url("planets/neptune.png");
+
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+
+	}
+	.plutoBase {
+
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+
+	}
+
+	
+
+	.plutoLayer{
+
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 255, 255, 0 ); /**blue**/
+		background-image: url("planets/pluto.png");
+		background-repeat: no-repeat;
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+
+	}
+	
+	.rockBase {
+
+		background-color: rgba( 255, 0, 255, 0 ); /**purple**/
+
+		position: absolute;
+
+		left: 256px;
+
+		top: 256px;
+
+		width: 20px;
+
+		height: 20px;
+
+		margin-left: -10px;
+
+		margin-top: -10px;
+
+	}
+
+	
+
+	.rockLayer{
+
+		position: absolute;
+
+		left: 50%;
+
+		top: 50%;
+
+		width: 800px;
+
+		height: 800px;
+
+		margin-left: -128px;
+
+		margin-top: -128px;
+
+		background-color: rgba( 0, 255, 255, 0 ); /**blue**/
+		background-image: url("planets/rock.png");
+		background-repeat: no-repeat;
+		-webkit-transition: opacity .5s ease-out;
+
+		-moz-transition: opacity .5s ease-out;
+
+		-o-transition: opacity .5s ease-out;
+
+	}
+	
+	
